@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28b05fbb-f87c-4fb8-9293-53819ddeed3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/PropertyInjectedGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/SetterInjectedGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/ConstructorInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/ConstructorInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/PropertyInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/PropertyInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/SetterInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/SetterInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/GreetingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/ConstructorGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/SetterInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/SetterInjectedControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="28b05fbb-f87c-4fb8-9293-53819ddeed3b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582484203110</updated>
-      <workItem from="1582484205205" duration="11718000" />
+      <workItem from="1582484205205" duration="11981000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1582487045265</created>
@@ -212,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582509065926</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating different beans to get injected for everyone of Components with @Qualifier(&quot;&quot;) to tell which of controllers get which one of services">
+      <created>1582510260412</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582510260412</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +219,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial Project Add" />
     <MESSAGE value="Adding controllers and services and inject them with 3 different methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding controllers and services and inject them with 3 different methods" />
+    <MESSAGE value="Creating different beans to get injected for everyone of Components with @Qualifier(&quot;&quot;) to tell which of controllers get which one of services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating different beans to get injected for everyone of Components with @Qualifier(&quot;&quot;) to tell which of controllers get which one of services" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="197" key="#Notifications" timestamp="1582508766219">
@@ -246,10 +243,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="293" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582485273274" />
-    <state x="482" y="132" key="CommitChangelistDialog2" timestamp="1582509065159">
+    <state x="482" y="132" key="CommitChangelistDialog2" timestamp="1582510259133">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="482" y="132" key="CommitChangelistDialog2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582509065159" />
+    <state x="482" y="132" key="CommitChangelistDialog2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582510259133" />
     <state x="794" y="283" key="FileChooserDialogImpl" timestamp="1582486378282">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -306,10 +303,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="113" key="SettingsEditor/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582501971994" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1582509074429">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1582510266053">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582509074429" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582510266053" />
     <state x="743" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582486391804">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
