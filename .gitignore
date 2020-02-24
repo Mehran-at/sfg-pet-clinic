@@ -171,3 +171,4 @@ build/
 
 ### VS Code ###
 .vscode/
+/.idea/
