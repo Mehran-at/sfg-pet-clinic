@@ -2,18 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28b05fbb-f87c-4fb8-9293-53819ddeed3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgPetClinicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/ConstructorInjectedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/PropertyInjectedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/SetterInjectedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/GreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/GreetingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/SetterInjectedControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/SfgPetClinicApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgpetclinic/SfgPetClinicApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/SfgPetClinicApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YDjkee7gMXBQQBuG30unStViwW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,9 +48,15 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Compressed/jar_files" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -34,18 +64,106 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44942528" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
-    <configuration name="SfgPetClinicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="guru.springframework.sfgdi.controllers" />
+      <recent name="guru.springframework.sfgdi" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="guru.springframework.sfgdi.controllers" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="guru.springframework.sfgdi.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SfgPetClinicApplication">
+    <configuration name="ConstructorInjectedControllerTest.getGreetingService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sfg-pet-clinic" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgpetclinic.SfgPetClinicApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.controllers.ConstructorInjectedControllerTest" />
+      <option name="METHOD_NAME" value="getGreetingService" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PropertyInjectedControllerTest.getGreetting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfg-pet-clinic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.controllers.PropertyInjectedControllerTest" />
+      <option name="METHOD_NAME" value="getGreetting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetterInjectedControllerTest.getGreetting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfg-pet-clinic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.controllers.SetterInjectedControllerTest" />
+      <option name="METHOD_NAME" value="getGreetting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SfgPetClinicApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfg-pet-clinic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.SfgPetClinicApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SfgPetClinicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sfg-pet-clinic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgdi.SfgPetClinicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConstructorInjectedControllerTest.getGreetingService" />
+        <item itemvalue="JUnit.SetterInjectedControllerTest.getGreetting" />
+        <item itemvalue="JUnit.PropertyInjectedControllerTest.getGreetting" />
+        <item itemvalue="JUnit.SfgPetClinicApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -69,7 +187,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582484203110</updated>
-      <workItem from="1582484205205" duration="3157000" />
+      <workItem from="1582484205205" duration="10711000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1582487045265</created>
@@ -85,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582487315021</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial Project Add">
+      <created>1582487439064</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582487439064</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,37 +223,97 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial Project Add" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1582486493052">
+    <state x="552" y="197" key="#Notifications" timestamp="1582508766219">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582486493052" />
+    <state x="552" y="197" key="#Notifications/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508766219" />
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1582503454047">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582503454047" />
     <state x="790" y="232" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1582485266930">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="790" y="232" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582485266930" />
+    <state x="741" y="398" width="457" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582504015467">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="741" y="398" width="457" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582504015467" />
     <state x="690" y="293" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1582485273274">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="293" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582485273274" />
-    <state x="482" y="132" key="CommitChangelistDialog2" timestamp="1582487314426">
+    <state x="482" y="132" key="CommitChangelistDialog2" timestamp="1582487438458">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="482" y="132" key="CommitChangelistDialog2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582487314426" />
+    <state x="482" y="132" key="CommitChangelistDialog2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582487438458" />
     <state x="794" y="283" key="FileChooserDialogImpl" timestamp="1582486378282">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="794" y="283" key="FileChooserDialogImpl/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582486378282" />
-    <state x="440" y="113" key="SettingsEditor" timestamp="1582486410129">
+    <state width="1877" height="401" key="GridCell.Tab.0.bottom" timestamp="1582508784489">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="440" y="113" key="SettingsEditor/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582486410129" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1582487319209">
+    <state width="1877" height="401" key="GridCell.Tab.0.bottom/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508784489" />
+    <state width="1877" height="401" key="GridCell.Tab.0.center" timestamp="1582508784489">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582487319209" />
+    <state width="1877" height="401" key="GridCell.Tab.0.center/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508784489" />
+    <state width="1877" height="401" key="GridCell.Tab.0.left" timestamp="1582508784489">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.0.left/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508784489" />
+    <state width="1877" height="401" key="GridCell.Tab.0.right" timestamp="1582508784489">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.0.right/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508784489" />
+    <state width="1877" height="401" key="GridCell.Tab.1.bottom" timestamp="1582508784489">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.1.bottom/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508784489" />
+    <state width="1877" height="401" key="GridCell.Tab.1.center" timestamp="1582508784489">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.1.center/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508784489" />
+    <state width="1877" height="401" key="GridCell.Tab.1.left" timestamp="1582508784489">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.1.left/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508784489" />
+    <state width="1877" height="401" key="GridCell.Tab.1.right" timestamp="1582508784489">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.1.right/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508784489" />
+    <state width="1877" height="363" key="GridCell.Tab.2.bottom" timestamp="1582508384443">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.2.bottom/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508384443" />
+    <state width="1877" height="363" key="GridCell.Tab.2.center" timestamp="1582508384443">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.2.center/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508384443" />
+    <state width="1877" height="363" key="GridCell.Tab.2.left" timestamp="1582508384443">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.2.left/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508384443" />
+    <state width="1877" height="363" key="GridCell.Tab.2.right" timestamp="1582508384443">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.2.right/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508384443" />
+    <state x="440" y="113" key="SettingsEditor" timestamp="1582501971994">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="113" key="SettingsEditor/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582501971994" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1582487440576">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582487440576" />
     <state x="743" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582486391804">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582486391804" />
+    <state x="731" y="257" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582503489907">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="731" y="257" key="com.intellij.testIntegration.createTest.CreateTestDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582503489907" />
   </component>
 </project>
