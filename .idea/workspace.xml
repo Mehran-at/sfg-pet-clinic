@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28b05fbb-f87c-4fb8-9293-53819ddeed3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/I18nController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/I18nSpanishGreetingService.java" afterDir="false" />
+    <list default="true" id="28b05fbb-f87c-4fb8-9293-53819ddeed3b" name="Default Changelist" comment="adding POJOs. Closes #2.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checkout" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgPetClinicApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgPetClinicApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgPetClinicApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgPetClinicApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfg-pet-clinic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sfg-pet-clinic.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -57,7 +57,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44942528" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -65,47 +65,40 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="guru.springframework.sfgpetclinic" />
       <recent name="guru.springframework.sfgdi.controllers" />
       <recent name="guru.springframework.sfgdi" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="guru.springframework.sfgdi.controllers" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m\Downloads\sfg-pet-clinic\pet-clinic-web\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="guru.springframework.sfgdi.controllers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="guru.springframework.sfgpetclinic" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="guru.springframework.sfgpetclinic.model" />
       <recent name="guru.springframework.sfgdi.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SfgPetClinicApplication">
+  <component name="RunManager" selected="Spring Boot.SfgPetClinicApplication (1)">
     <configuration name="ConstructorInjectedControllerTest.getGreetingService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sfg-pet-clinic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi.controllers" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.controllers.ConstructorInjectedControllerTest" />
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.controllers.ConstructorInjectedControllerTest" />
       <option name="METHOD_NAME" value="getGreetingService" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PropertyInjectedControllerTest.getGreetting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sfg-pet-clinic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi.controllers" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.controllers.PropertyInjectedControllerTest" />
-      <option name="METHOD_NAME" value="getGreetting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,46 +108,77 @@
       <module name="sfg-pet-clinic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi.controllers" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.controllers.SetterInjectedControllerTest" />
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.controllers.SetterInjectedControllerTest" />
       <option name="METHOD_NAME" value="getGreetting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SfgPetClinicApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sfg-pet-clinic" />
+    <configuration name="SfgPetClinicApplicationTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.SfgPetClinicApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.SfgPetClinicApplicationTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SfgPetClinicApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sfgpetclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sfgpetclinic" />
+      <option name="MAIN_CLASS_NAME" value="sfgpetclinic.SfgPetClinicApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SfgPetClinicApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sfg-pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgpetclinic.SfgPetClinicApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SfgPetClinicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="sfg-pet-clinic" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgdi.SfgPetClinicApplication" />
+      <module name="pet-clinic-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgpetclinic.SfgPetClinicApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SfgPetClinicApplication (1)" />
+        <item itemvalue="JUnit.SfgPetClinicApplicationTest.main" />
+        <item itemvalue="JUnit.SfgPetClinicApplicationTests.contextLoads" />
         <item itemvalue="JUnit.ConstructorInjectedControllerTest.getGreetingService" />
         <item itemvalue="JUnit.SetterInjectedControllerTest.getGreetting" />
-        <item itemvalue="JUnit.PropertyInjectedControllerTest.getGreetting" />
-        <item itemvalue="JUnit.SfgPetClinicApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +204,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582484203110</updated>
-      <workItem from="1582484205205" duration="14736000" />
+      <workItem from="1582484205205" duration="18633000" />
+      <workItem from="1582531816547" duration="45000" />
+      <workItem from="1582531900234" duration="14506000" />
+      <workItem from="1582637853164" duration="976000" />
+      <workItem from="1582638939378" duration="535000" />
+      <workItem from="1582639485894" duration="3361000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1582487045265</created>
@@ -231,7 +260,42 @@
       <option name="project" value="LOCAL" />
       <updated>1582511477463</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding different @Profile and configuring application.properties for one of profile">
+      <created>1582515291089</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582515291089</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adding POJOs. Closes #2.">
+      <created>1582533280685</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582533280685</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactoring to multimodule maven project. Closes #1.">
+      <created>1582618430856</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582618430856</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding POJOs. Closes #2.">
+      <created>1582640053510</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582640053510</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding POJOs. Closes #2.">
+      <created>1582642449270</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582642449270</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,104 +308,146 @@
     <MESSAGE value="Adding controllers and services and inject them with 3 different methods" />
     <MESSAGE value="Creating different beans to get injected for everyone of Components with @Qualifier(&quot;&quot;) to tell which of controllers get which one of services" />
     <MESSAGE value="Defining a Bean as @Primary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defining a Bean as @Primary" />
+    <MESSAGE value="Adding different @Profile and configuring application.properties for one of profile" />
+    <MESSAGE value="refactoring to multimodule maven project. Closes #1." />
+    <MESSAGE value="adding POJOs. Closes #2." />
+    <option name="LAST_COMMIT_MESSAGE" value="adding POJOs. Closes #2." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="197" key="#Notifications" timestamp="1582508766219">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="197" key="#Notifications/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508766219" />
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1582514476843">
+    <state x="552" y="197" key="#Project_Structure" timestamp="1582614019154">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582514476843" />
+    <state x="552" y="197" key="#Project_Structure/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582614019154" />
+    <state x="618" y="167" key="#SfgPetClinicApplication" timestamp="1582639620158">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="618" y="167" key="#SfgPetClinicApplication/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639620158" />
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1582532912492">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582532912492" />
     <state x="790" y="232" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1582485266930">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="790" y="232" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582485266930" />
-    <state x="741" y="398" width="457" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582504015467">
+    <state x="560" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582614291209">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="741" y="398" width="457" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582504015467" />
+    <state x="560" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582614291209" />
+    <state x="741" y="398" width="457" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582610744949">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="741" y="398" width="457" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582610744949" />
+    <state x="741" y="419" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1582614038927">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="741" y="419" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582614038927" />
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582532378824">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582532378824" />
     <state x="690" y="293" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1582485273274">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="293" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582485273274" />
-    <state x="407" y="132" key="CommitChangelistDialog2" timestamp="1582511476814">
+    <state x="407" y="132" width="1152" height="816" key="CommitChangelistDialog2" timestamp="1582642940693">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="407" y="132" key="CommitChangelistDialog2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582511476814" />
-    <state x="794" y="283" key="FileChooserDialogImpl" timestamp="1582486378282">
+    <state x="407" y="132" key="CommitChangelistDialog2/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582642940693" />
+    <state x="407" y="132" width="1152" height="816" key="CommitChangelistDialog2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582618429808" />
+    <state x="794" y="283" key="FileChooserDialogImpl" timestamp="1582531990171">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="794" y="283" key="FileChooserDialogImpl/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582486378282" />
-    <state width="1877" height="473" key="GridCell.Tab.0.bottom" timestamp="1582515077124">
+    <state x="794" y="283" key="FileChooserDialogImpl/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582531990171" />
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1582639668541">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.0.bottom/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582515077124" />
-    <state width="1877" height="473" key="GridCell.Tab.0.center" timestamp="1582515077124">
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582628002260" />
+    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1582639668541">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.0.center/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582515077124" />
-    <state width="1877" height="473" key="GridCell.Tab.0.left" timestamp="1582515077124">
+    <state width="1877" height="349" key="GridCell.Tab.0.center/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
+    <state width="1877" height="345" key="GridCell.Tab.0.center/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582628002260" />
+    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1582639668541">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.0.left/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582515077124" />
-    <state width="1877" height="473" key="GridCell.Tab.0.right" timestamp="1582515077124">
+    <state width="1877" height="349" key="GridCell.Tab.0.left/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
+    <state width="1877" height="345" key="GridCell.Tab.0.left/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582628002260" />
+    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1582639668541">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.0.right/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582515077124" />
-    <state width="1877" height="473" key="GridCell.Tab.1.bottom" timestamp="1582515077124">
+    <state width="1877" height="349" key="GridCell.Tab.0.right/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
+    <state width="1877" height="345" key="GridCell.Tab.0.right/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582628002260" />
+    <state width="1877" height="349" key="GridCell.Tab.1.bottom" timestamp="1582639668541">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.1.bottom/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582515077124" />
-    <state width="1877" height="473" key="GridCell.Tab.1.center" timestamp="1582515077124">
+    <state width="1877" height="349" key="GridCell.Tab.1.bottom/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582615305292" />
+    <state width="1877" height="349" key="GridCell.Tab.1.center" timestamp="1582639668541">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.1.center/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582515077124" />
-    <state width="1877" height="473" key="GridCell.Tab.1.left" timestamp="1582515077124">
+    <state width="1877" height="349" key="GridCell.Tab.1.center/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582615305292" />
+    <state width="1877" height="349" key="GridCell.Tab.1.left" timestamp="1582639668541">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.1.left/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582515077124" />
-    <state width="1877" height="473" key="GridCell.Tab.1.right" timestamp="1582515077124">
+    <state width="1877" height="349" key="GridCell.Tab.1.left/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582615305292" />
+    <state width="1877" height="349" key="GridCell.Tab.1.right" timestamp="1582639668541">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.1.right/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582515077124" />
-    <state width="1877" height="363" key="GridCell.Tab.2.bottom" timestamp="1582508384443">
+    <state width="1877" height="349" key="GridCell.Tab.1.right/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582615305292" />
+    <state width="1877" height="363" key="GridCell.Tab.2.bottom" timestamp="1582615305292">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.bottom/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508384443" />
-    <state width="1877" height="363" key="GridCell.Tab.2.center" timestamp="1582508384443">
+    <state width="1877" height="363" key="GridCell.Tab.2.bottom/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582615305292" />
+    <state width="1877" height="363" key="GridCell.Tab.2.center" timestamp="1582615305292">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.center/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508384443" />
-    <state width="1877" height="363" key="GridCell.Tab.2.left" timestamp="1582508384443">
+    <state width="1877" height="363" key="GridCell.Tab.2.center/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582615305292" />
+    <state width="1877" height="363" key="GridCell.Tab.2.left" timestamp="1582615305292">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.left/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508384443" />
-    <state width="1877" height="363" key="GridCell.Tab.2.right" timestamp="1582508384443">
+    <state width="1877" height="363" key="GridCell.Tab.2.left/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582615305292" />
+    <state width="1877" height="363" key="GridCell.Tab.2.right" timestamp="1582615305292">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.right/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582508384443" />
-    <state x="743" y="250" key="RollbackChangesDialog" timestamp="1582515208614">
+    <state width="1877" height="363" key="GridCell.Tab.2.right/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582615305292" />
+    <state x="625" y="238" key="NewModule_or_Project.wizard" timestamp="1582516264508">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="743" y="250" key="RollbackChangesDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582515208614" />
+    <state x="625" y="238" key="NewModule_or_Project.wizard/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582516264508" />
+    <state x="743" y="250" key="RollbackChangesDialog" timestamp="1582515740593">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="250" key="RollbackChangesDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582515740593" />
     <state x="440" y="113" key="SettingsEditor" timestamp="1582501971994">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="113" key="SettingsEditor/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582501971994" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1582511480209">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1582642452641">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582511480209" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582642452641" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582618433522" />
     <state x="743" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582486391804">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582486391804" />
-    <state x="731" y="257" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582503489907">
+    <state x="731" y="257" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582615575869">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="731" y="257" key="com.intellij.testIntegration.createTest.CreateTestDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582503489907" />
+    <state x="731" y="257" key="com.intellij.testIntegration.createTest.CreateTestDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582615575869" />
+    <state x="342" y="241" key="new project wizard" timestamp="1582610630519">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="342" y="241" key="new project wizard/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582610630519" />
   </component>
 </project>
