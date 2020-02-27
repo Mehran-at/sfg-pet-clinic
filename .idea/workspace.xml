@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28b05fbb-f87c-4fb8-9293-53819ddeed3b" name="Default Changelist" comment="adding POJOs. Closes #2.">
+    <list default="true" id="28b05fbb-f87c-4fb8-9293-53819ddeed3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/header.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/petclinic.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/responsive.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/typography.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/wro/wro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/wro/wro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/target/pet-clinic-data-0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pet-clinic-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/sfg-pet-clinic-web.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +61,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,6 +93,12 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="guru.springframework.sfgpetclinic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\m\Downloads\Compressed\sfg-pet-clinic\pet-clinic-web\src\main" />
+      <recent name="C:\Users\m\Downloads\Compressed\sfg-pet-clinic\pet-clinic-data\src\main" />
+      <recent name="C:\Users\m\Downloads\Compressed\sfg-pet-clinic\pet-clinic-web\src\main\resources\templates" />
+      <recent name="C:\Users\m\Downloads\Compressed\sfg-pet-clinic\pet-clinic-web\src\main\resources\static\resources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="guru.springframework.sfgpetclinic.model" />
@@ -217,7 +239,7 @@
       <workItem from="1582639485894" duration="3361000" />
       <workItem from="1582670465262" duration="23135000" />
       <workItem from="1582792181937" duration="314000" />
-      <workItem from="1582792757238" duration="599000" />
+      <workItem from="1582792757238" duration="4452000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1582487045265</created>
@@ -387,7 +409,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582727453311</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="adding static resources. Closes #17.">
+      <created>1582799943870</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1582799943870</updated>
+    </task>
+    <task id="LOCAL-00026" summary="copy Master Template from Spring Pet Clinic. Closes #18.">
+      <created>1582800395018</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1582800395018</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +451,9 @@
     <MESSAGE value="list all Owners on Index page . Closes #16." />
     <MESSAGE value="list all Vets on Vet index page. Closes #15." />
     <MESSAGE value="update Map Impl to manage setting of ID Property. Closes #23." />
-    <option name="LAST_COMMIT_MESSAGE" value="update Map Impl to manage setting of ID Property. Closes #23." />
+    <MESSAGE value="adding static resources. Closes #17." />
+    <MESSAGE value="copy Master Template from Spring Pet Clinic. Closes #18." />
+    <option name="LAST_COMMIT_MESSAGE" value="copy Master Template from Spring Pet Clinic. Closes #18." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -427,10 +465,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="197" key="#Project_Structure/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582614019154" />
-    <state x="618" y="167" key="#SfgPetClinicApplication" timestamp="1582727391873">
+    <state x="618" y="167" key="#SfgPetClinicApplication" timestamp="1582803797935">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="618" y="167" key="#SfgPetClinicApplication/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582727391873" />
+    <state x="618" y="167" key="#SfgPetClinicApplication/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582803797935" />
     <state x="618" y="167" key="#SfgPetClinicApplication/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639620158" />
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582719640476">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -466,38 +504,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="293" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582485273274" />
-    <state x="407" y="132" width="1152" height="816" key="CommitChangelistDialog2" timestamp="1582727452372">
+    <state x="407" y="132" width="1152" height="816" key="CommitChangelistDialog2" timestamp="1582800394346">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="407" y="132" key="CommitChangelistDialog2/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582727452372" />
+    <state x="407" y="132" key="CommitChangelistDialog2/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582800394346" />
     <state x="407" y="132" key="CommitChangelistDialog2/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582671531524" />
     <state x="407" y="132" width="1152" height="816" key="CommitChangelistDialog2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582618429808" />
     <state x="794" y="283" key="FileChooserDialogImpl" timestamp="1582531990171">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="794" y="283" key="FileChooserDialogImpl/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582531990171" />
-    <state width="1877" height="265" key="GridCell.Tab.0.bottom" timestamp="1582727394429">
+    <state width="1876" height="159" key="GridCell.Tab.0.bottom" timestamp="1582803801879">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="265" key="GridCell.Tab.0.bottom/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582727394429" />
+    <state width="1876" height="159" key="GridCell.Tab.0.bottom/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582803801879" />
     <state width="1877" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
     <state width="1877" height="345" key="GridCell.Tab.0.bottom/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582628002260" />
-    <state width="1877" height="265" key="GridCell.Tab.0.center" timestamp="1582727394428">
+    <state width="1876" height="159" key="GridCell.Tab.0.center" timestamp="1582803801879">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="265" key="GridCell.Tab.0.center/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582727394428" />
+    <state width="1876" height="159" key="GridCell.Tab.0.center/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582803801879" />
     <state width="1877" height="349" key="GridCell.Tab.0.center/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
     <state width="1877" height="345" key="GridCell.Tab.0.center/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582628002260" />
-    <state width="1877" height="265" key="GridCell.Tab.0.left" timestamp="1582727394428">
+    <state width="1876" height="159" key="GridCell.Tab.0.left" timestamp="1582803801879">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="265" key="GridCell.Tab.0.left/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582727394428" />
+    <state width="1876" height="159" key="GridCell.Tab.0.left/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582803801879" />
     <state width="1877" height="349" key="GridCell.Tab.0.left/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
     <state width="1877" height="345" key="GridCell.Tab.0.left/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582628002260" />
-    <state width="1877" height="265" key="GridCell.Tab.0.right" timestamp="1582727394429">
+    <state width="1876" height="159" key="GridCell.Tab.0.right" timestamp="1582803801879">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="265" key="GridCell.Tab.0.right/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582727394429" />
+    <state width="1876" height="159" key="GridCell.Tab.0.right/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582803801879" />
     <state width="1877" height="349" key="GridCell.Tab.0.right/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582639668541" />
     <state width="1877" height="345" key="GridCell.Tab.0.right/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582628002260" />
     <state width="1877" height="244" key="GridCell.Tab.1.bottom" timestamp="1582719647866">
@@ -552,10 +590,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="113" key="SettingsEditor/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582501971994" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1582727585303">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1582800397380">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582727585303" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582800397380" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582671536685" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/2181.-825.1920.1080/0.0.1920.1080/-379.-1440.2048.1152@0.0.1920.1080" timestamp="1582618433522" />
     <state x="743" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582486391804">
