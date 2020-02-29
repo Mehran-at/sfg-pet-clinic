@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="992365c9-4514-4f0e-aef4-3c11011cacbe" name="Default Changelist" comment="adding project lombok and refactoring" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1YFIiebcwGhYbJBWYWETwpqSoxc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Compressed" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="vcs.patch.to.clipboard" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SfgPetClinicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pet-clinic-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgpetclinic.SfgPetClinicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="992365c9-4514-4f0e-aef4-3c11011cacbe" name="Default Changelist" comment="" />
+      <created>1582532043547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582532043547</updated>
+      <workItem from="1582532045216" duration="1518000" />
+      <workItem from="1582637852072" duration="599000" />
+      <workItem from="1582638923568" duration="549000" />
+      <workItem from="1582660504311" duration="11000" />
+      <workItem from="1582660525786" duration="26000" />
+      <workItem from="1582660597032" duration="4000" />
+      <workItem from="1582662828370" duration="1346000" />
+      <workItem from="1582669751737" duration="5000" />
+      <workItem from="1582669823737" duration="6000" />
+      <workItem from="1582669841568" duration="6000" />
+      <workItem from="1582669954968" duration="6000" />
+      <workItem from="1582670078277" duration="195000" />
+      <workItem from="1582670352815" duration="117000" />
+      <workItem from="1582810177089" duration="167000" />
+      <workItem from="1582810445219" duration="7591000" />
+      <workItem from="1582922413482" duration="6904000" />
+      <workItem from="1582975299885" duration="3852000" />
+      <workItem from="1582979612562" duration="1504000" />
+      <workItem from="1583018380846" duration="1158000" />
+    </task>
+    <task id="LOCAL-00001" summary="adding project lombok and refactoring">
+      <created>1582978155476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582978155476</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding project lombok and refactoring">
+      <created>1582978306545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582978306545</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding project lombok and refactoring">
+      <created>1582979772869</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582979772869</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding project lombok and refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding project lombok and refactoring" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="198" key="#HTTP_Proxy" timestamp="1582868657532">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#HTTP_Proxy/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582868657532" />
+    <state x="552" y="197" key="#Notifications" timestamp="1582978376441">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="197" key="#Notifications/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582978376441" />
+    <state x="710" y="398" width="500" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582670109009">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="710" y="398" width="500" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582670109009" />
+    <state x="539" y="132" key="CommitChangelistDialog2" timestamp="1583019605610">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="539" y="132" key="CommitChangelistDialog2/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583019605610" />
+    <state x="739" y="281" key="FileChooserDialogImpl" timestamp="1583018424919">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="281" key="FileChooserDialogImpl/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583018424919" />
+    <state x="739" y="281" key="FileChooserDialogImpl/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582670370035" />
+    <state width="938" height="295" key="GridCell.Tab.0.bottom" timestamp="1583018369988">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2004" height="295" key="GridCell.Tab.0.bottom/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@-379.-1440.2048.1152" timestamp="1582826392855" />
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582826174771" />
+    <state width="938" height="295" key="GridCell.Tab.0.bottom/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583018369988" />
+    <state width="938" height="295" key="GridCell.Tab.0.center" timestamp="1583018369988">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2004" height="295" key="GridCell.Tab.0.center/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@-379.-1440.2048.1152" timestamp="1582826392855" />
+    <state width="1876" height="295" key="GridCell.Tab.0.center/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582826174771" />
+    <state width="938" height="295" key="GridCell.Tab.0.center/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583018369988" />
+    <state width="938" height="295" key="GridCell.Tab.0.left" timestamp="1583018369988">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2004" height="295" key="GridCell.Tab.0.left/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@-379.-1440.2048.1152" timestamp="1582826392855" />
+    <state width="1876" height="295" key="GridCell.Tab.0.left/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582826174771" />
+    <state width="938" height="295" key="GridCell.Tab.0.left/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583018369988" />
+    <state width="938" height="295" key="GridCell.Tab.0.right" timestamp="1583018369988">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2004" height="295" key="GridCell.Tab.0.right/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@-379.-1440.2048.1152" timestamp="1582826392855" />
+    <state width="1876" height="295" key="GridCell.Tab.0.right/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582826174771" />
+    <state width="938" height="295" key="GridCell.Tab.0.right/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583018369988" />
+    <state width="1876" height="295" key="GridCell.Tab.1.bottom" timestamp="1582979594023">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="295" key="GridCell.Tab.1.bottom/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582826139278" />
+    <state width="1876" height="295" key="GridCell.Tab.1.bottom/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582979594023" />
+    <state width="1876" height="295" key="GridCell.Tab.1.center" timestamp="1582979594023">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="295" key="GridCell.Tab.1.center/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582826139278" />
+    <state width="1876" height="295" key="GridCell.Tab.1.center/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582979594023" />
+    <state width="1876" height="295" key="GridCell.Tab.1.left" timestamp="1582979594023">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="295" key="GridCell.Tab.1.left/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582826139278" />
+    <state width="1876" height="295" key="GridCell.Tab.1.left/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582979594023" />
+    <state width="1876" height="295" key="GridCell.Tab.1.right" timestamp="1582979594023">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="295" key="GridCell.Tab.1.right/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582826139278" />
+    <state width="1876" height="295" key="GridCell.Tab.1.right/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582979594023" />
+    <state width="1876" height="363" key="GridCell.Tab.2.bottom" timestamp="1582979594020">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="363" key="GridCell.Tab.2.bottom/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582979594020" />
+    <state width="1876" height="363" key="GridCell.Tab.2.center" timestamp="1582979594020">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="363" key="GridCell.Tab.2.center/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582979594020" />
+    <state width="1876" height="363" key="GridCell.Tab.2.left" timestamp="1582979594020">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="363" key="GridCell.Tab.2.left/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582979594020" />
+    <state width="1876" height="363" key="GridCell.Tab.2.right" timestamp="1582979594020">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="363" key="GridCell.Tab.2.right/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582979594020" />
+    <state x="512" y="265" key="NewModule_or_Project.wizard" timestamp="1582662956055">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="512" y="265" key="NewModule_or_Project.wizard/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582662956055" />
+    <state x="461" y="181" key="SettingsEditor" timestamp="1583019251053">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="181" key="SettingsEditor/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583019251053" />
+    <state x="92" y="92" width="1736" height="896" key="ShowDiffWithBranchDialog" timestamp="1583019539731">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="ShowDiffWithBranchDialog/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583019539731" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1583019536586">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583019536586" />
+    <state x="415" y="231" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1582868693221">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="415" y="231" key="com.intellij.javaee.MapExternalResourceDialog/-379.-1440.2048.1152/2181.-825.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582868693221" />
+    <state x="769" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583018496758">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="769" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583018496758" />
+    <state x="748" y="330" key="git4idea.merge.GitMergeDialog" timestamp="1582979085340">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="330" key="git4idea.merge.GitMergeDialog/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582979085340" />
+    <state x="649" y="307" key="git4idea.merge.GitPullDialog" timestamp="1582979345192">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="649" y="307" key="git4idea.merge.GitPullDialog/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582979345192" />
+    <state x="649" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1080/-379.-1440.2048.1152/2181.-825.1920.1080@0.0.1920.1080" timestamp="1582662874242" />
+    <state x="758" y="433" key="git4idea.ui.GitResetDialog" timestamp="1582979333895">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="758" y="433" key="git4idea.ui.GitResetDialog/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582979333895" />
+    <state x="790" y="330" key="svn.repositoryBrowser" timestamp="1583018463776">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="790" y="330" key="svn.repositoryBrowser/-639.-1440.2048.1152/1921.-1085.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583018463776" />
+  </component>
+</project>
